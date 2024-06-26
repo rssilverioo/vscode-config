@@ -1,106 +1,94 @@
 {
-  // Workbench
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Soft",
-  "workbench.editor.labelFormat": "short",
-  "workbench.startupEditor": "newUntitledFile",
-  
-  // Editor settings
-  "editor.wordWrap": "on",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
-  "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, Fira Code",
-  "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [80, 120],
-  "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.fixAll.eslint": "explicit"
-  },
-
-
+    // Workbench
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula Soft",
+    "workbench.editor.labelFormat": "short",
+    "workbench.startupEditor": "newUntitledFile",
     
-  // VSCode stuff
-  "breadcrumbs.enabled": true,
-  "explorer.compactFolders": false,
-  "explorer.confirmDragAndDrop": false,
-  "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
-  
-  // Emmet
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  
-  // Extensions
-  "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "material-icon-theme.folders.associations": {
-    "domain": "core",
-    "infra": "app",
-    "main": "public",
-    "presentation": "connection",
-    "cryptography": "secure",
-    "entities": "class",
-    "repositories": "mappings",
-    "protocols": "resource",
-    "useCases": "components",
-    "subcomponents": "components",
-    "adapters": "connection",
-    "factories": "container",
-    "globals": "global",
-    "ui": "views"
-  },
-  "material-icon-theme.files.associations": {
-    "ormconfig.json": "database",
-    "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
-  },
-  "polacode.transparentBackground": true,
-  "polacode.shadow": "none",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
-  "gitlens.defaultDateFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
-  "symbols.hidesExplorerArrows": false,
-  "yaml.schemas": {
-    "file:///c%3A/Users/Rodrigo/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma",
-    "editor.formatOnSave": true,
-  },
-  "material-icon-theme.activeIconPack": "nest",
-  "tabnine.experimentalAutoImports": true,
-  "terminal.external.windowsExec": "D:\\Git\\git-bash.exeC:\\Users\\Rodrigo\\AppData\\Local\\Programs\\hyper/hyper.exe",
-  "terminal.external.osxExec": "C:\\Users\\Rodrigo\\AppData\\Local\\Programs\\Hyper/Hyper.exe",
-  "terminal.external.linuxExec": "C:\\Users\\Rodrigo\\AppData\\Local\\Programs\\Hyper/Hyper.exe",
-  "terminal.integrated.profiles.windows": {
-  
-    "Git Bash": {
-      "source": "Git Bash"
+    // Editor settings
+    "editor.wordWrap": "on",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 20,
+    "terminal.integrated.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "JetBrains Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "editor.rulers": [80, 120],
+    "editor.parameterHints.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit"
     },
-    "Hyper": {
-      "source": "Hyper"
-    }
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "workbench.editor.empty.hint": "hidden",
-  "eslint.validate": [
-    "javascript"
-  ],
-  "redhat.telemetry.enabled": true,
-  "gitlens.graph.layout": "editor",
-}
+  
+  
+      
+    // VSCode stuff
+    "breadcrumbs.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    
+    // Emmet
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
+    
+    // Extensions
+    "extensions.ignoreRecommendations": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "material-icon-theme.folders.associations": {
+      "domain": "core",
+      "infra": "app",
+      "main": "public",
+      "presentation": "connection",
+      "cryptography": "secure",
+      "entities": "class",
+      "repositories": "mappings",
+      "protocols": "resource",
+      "useCases": "components",
+      "subcomponents": "components",
+      "adapters": "connection",
+      "factories": "container",
+      "globals": "global",
+      "ui": "views"
+    },
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      ".lintstagedrc.json": "tune"
+    },
+    "polacode.transparentBackground": true,
+    "polacode.shadow": "none",
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
+    "gitlens.defaultDateFormat": null,
+    "gitlens.hovers.currentLine.over": "line",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "symbols.hidesExplorerArrows": false,
+    "yaml.schemas": {
+      "file:///c%3A/Users/Rodrigo/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma",
+      "editor.formatOnSave": true,
+    },
+    "material-icon-theme.activeIconPack": "nest",
+    "tabnine.experimentalAutoImports": true,
+    "workbench.editor.empty.hint": "hidden",
+    "eslint.validate": [
+      "javascript"
+    ],
+    "redhat.telemetry.enabled": true,
+    "gitlens.graph.layout": "editor",
+    "prisma.showPrismaDataPlatformNotification": false,
+  }
